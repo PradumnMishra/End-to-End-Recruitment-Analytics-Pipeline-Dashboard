@@ -8,6 +8,14 @@ Developed a centralized analytics solution for a recruitment firm to process and
 
 ## 🛑 The Business Problem
 * **Massive & Fragmented Data:** Over 700,000 rows spread across multiple disconnected tables (both normalized and centralized structures).
-* Unstructured Text: Critical details regarding job types and seniority levels were embedded within lengthy, unstructured text paragraphs.
-* Performance Bottlenecks: The sheer volume of data threatened to compromise Power BI report speed and responsiveness.
-* Lack of Visibility: The disorganization made it impossible to identify peak hiring periods, remote vs. on-site trends, and localized        skill demands
+* **Unstructured Text:** Critical details regarding job types and seniority levels were embedded within lengthy, unstructured text paragraphs.
+* **Performance Bottlenecks:** The sheer volume of data threatened to compromise Power BI report speed and responsiveness.
+* **Lack of Visibility:** The disorganization made it impossible to identify peak hiring periods, remote vs. on-site trends, and localized        skill demands
+
+## 🏗️ Architecture & ETL Workflow
+To solve the data silos and performance issues, I engineered a robust data pipeline:
+
+### 1. Data Extraction & Consolidation
++ **Database Integration:** Connected directly to a local MS SQL Server using Python (pyodbc) and Power BI to extract 4 primary dimension/fact tables (company_dim2, job_postings_fact2, skills_dim2, skills_job_dim2).
+
+Python Merging Pipeline: Wrote a Python script utilizing pandas to handle left joins across massive datasets, successfully merging company, job posting, and skills data. Replaced null values and aggregated grouped skills into a clean, comma-separated string format for easier downstream processing.
