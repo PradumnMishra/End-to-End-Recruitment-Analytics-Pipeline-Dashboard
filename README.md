@@ -26,7 +26,7 @@ Wrote custom M Language scripts to extract structured insights from messy text f
 + **Title Standardization:** Mapped hundreds of varied, inconsistent job titles into standardized parent categories (e.g., standardizing "ml engineer", "deep learning engineer", and "ai engineer" into Machine Learning Engineer).
 + **Seniority Extraction:** Parsed titles for keywords like Lead, Principal, Chief, Director, VP, and Senior to classify roles into distinct hierarchy levels (Associate vs. Mid/Senior Level).
 
-# 📊 Key Insights & Deliverables
+## 📊 Key Insights & Deliverables
 📈 **Peak Hiring Periods:** Identified major seasonal spikes in talent acquisition, noting a significant high of 2,926 job openings in January 2023, helping the client optimize their recruitment timing. 
 
 <img width="436" height="182" alt="image" src="https://github.com/user-attachments/assets/170dc2f2-e59b-4ebe-aa4b-76826b3fb162" />
@@ -39,3 +39,8 @@ Wrote custom M Language scripts to extract structured insights from messy text f
 
 🌍 **Evolving Work Structures:** Analyzed the distribution of hybrid, onsite, and remote roles to track post-pandemic employment trends globally.    
 <img width="437" height="141" alt="image" src="https://github.com/user-attachments/assets/bda52f0c-f6a1-4ee6-93a2-73ad660a006b" />
+
+##🧠 Challenges & Learnings
+* **Handling Massive Data Volumes:** Processing 700k+ rows locally required optimizing Pandas memory usage and ensuring that Power Query operations were folded back to the SQL server wherever possible to maintain performance.
+
+* **Hybrid ETL Necessity:** Due to specific client source constraints, I had to balance transformations between Python (for complex merges) and Power Query (for string parsing), teaching me how to architect a multi-tool pipeline rather than relying on a single platform.
