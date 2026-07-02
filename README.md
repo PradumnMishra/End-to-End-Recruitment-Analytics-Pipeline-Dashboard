@@ -8,3 +8,5 @@ Developed a centralized analytics solution for a recruitment firm to process and
 
 ## 🛑 The Business Problem
 * Massive & Fragmented Data: Over 700,000 rows spread across multiple disconnected tables (both normalized and centralized structures).
+* Unstructured Text: Critical details regarding job types and seniority levels were embedded within lengthy, unstructured text paragraphs.  * Performance Bottlenecks: The sheer volume of data threatened to compromise Power BI report speed and responsiveness.
+* Lack of Visibility: The disorganization made it impossible to identify peak hiring periods, remote vs. on-site trends, and localized        skill demands
