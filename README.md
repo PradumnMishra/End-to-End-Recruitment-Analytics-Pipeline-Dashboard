@@ -28,6 +28,7 @@ Wrote custom M Language scripts to extract structured insights from messy text f
 
 # 📊 Key Insights & Deliverables
 📈 **Peak Hiring Periods:** Identified major seasonal spikes in talent acquisition, noting a significant high of 2,926 job openings in January 2023, helping the client optimize their recruitment timing. 
+
 <img width="436" height="182" alt="image" src="https://github.com/user-attachments/assets/170dc2f2-e59b-4ebe-aa4b-76826b3fb162" />
 
 🛠️ **In-Demand Skills:** Visualized market requirements through a dynamic word cloud, revealing that SQL, Python, Excel, Tableau, and Cloud Engineering (AWS/Azure) dominate employer demands. 
