@@ -7,7 +7,7 @@ Developed a centralized analytics solution for a recruitment firm to process and
 <img width="900" height="508" alt="RecruimentAnalytics" src="https://github.com/user-attachments/assets/b3166386-a9e5-4379-b641-026ecbfd568e" />
 
 ## 🛑 The Business Problem
-* Massive & Fragmented Data: Over 700,000 rows spread across multiple disconnected tables (both normalized and centralized structures).
+* **Massive & Fragmented Data:** Over 700,000 rows spread across multiple disconnected tables (both normalized and centralized structures).
 * Unstructured Text: Critical details regarding job types and seniority levels were embedded within lengthy, unstructured text paragraphs.
 * Performance Bottlenecks: The sheer volume of data threatened to compromise Power BI report speed and responsiveness.
 * Lack of Visibility: The disorganization made it impossible to identify peak hiring periods, remote vs. on-site trends, and localized        skill demands
