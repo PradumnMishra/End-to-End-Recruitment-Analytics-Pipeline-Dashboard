@@ -1,4 +1,5 @@
-🚀 End-to-End Recruitment Analytics Pipeline & Dashboard
+#🚀 End-to-End Recruitment Analytics Pipeline & Dashboard
+
 Tech Stack: SQL Server | Python (Pandas, PyODBC) | Power Query (M Language) | Power BI
 
 📋 Executive Summary
