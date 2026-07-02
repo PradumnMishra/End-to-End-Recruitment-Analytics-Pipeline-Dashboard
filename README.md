@@ -40,7 +40,7 @@ Wrote custom M Language scripts to extract structured insights from messy text f
 🌍 **Evolving Work Structures:** Analyzed the distribution of hybrid, onsite, and remote roles to track post-pandemic employment trends globally.    
 <img width="437" height="141" alt="image" src="https://github.com/user-attachments/assets/bda52f0c-f6a1-4ee6-93a2-73ad660a006b" />
 
-##🧠 Challenges & Learnings
+## 🧠 Challenges & Learnings
 * **Handling Massive Data Volumes:** Processing 700k+ rows locally required optimizing Pandas memory usage and ensuring that Power Query operations were folded back to the SQL server wherever possible to maintain performance.
 
-* **Hybrid ETL Necessity:** Due to specific client source constraints, I had to balance transformations between Python (for complex merges) and Power Query (for string parsing), teaching me how to architect a multi-tool pipeline rather than relying on a single platform.
+* **Hybrid ETL Necessity:** Due to specific client source constraints, I had to balance transformations between SQL(data loading), Python (for complex merges) and Power Query (for string parsing), teaching me how to architect a multi-tool pipeline rather than relying on a single platform.
