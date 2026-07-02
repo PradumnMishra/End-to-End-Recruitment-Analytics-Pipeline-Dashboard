@@ -1,1 +1,5 @@
-# End-to-End-Recruitment-Analytics-Pipeline-Dashboard
+🚀 End-to-End Recruitment Analytics Pipeline & Dashboard
+Tech Stack: SQL Server | Python (Pandas, PyODBC) | Power Query (M Language) | Power BI
+
+📋 Executive Summary
+Developed a centralized analytics solution for a recruitment firm to process and analyze over 700,000 unorganized job postings. Designed a hybrid ETL pipeline integrating MS SQL Server, Python, and Power Query to consolidate fragmented data sources into a highly optimized Power BI dashboard. The final product empowers stakeholders to track global hiring trends, optimize workforce planning, and identify shifting demands in the data industry.
